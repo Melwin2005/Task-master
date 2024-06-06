@@ -52,7 +52,7 @@ scrollbar_target.config(command=listbox_target.yview)
 entry_target = tkinter.Entry(melwin, width=50)
 entry_target.pack()
 
-button_add_emoji= tkinter.Button(melwin, text="♡", width=48,command=lambda:add_emoji("♡"))
+button_add_emoji= tkinter.Button(melwin, text="🖤", width=48,command=lambda:add_emoji("🖤"))
 button_add_emoji.pack()
 
 button_add_emoji = tkinter.Button(melwin, text="😊", width=48,command=lambda:add_emoji("😊"))
