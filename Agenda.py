@@ -58,6 +58,9 @@ button_add_emoji.pack()
 button_add_emoji = tkinter.Button(melwin, text="😊", width=48,command=lambda:add_emoji("😊"))
 button_add_emoji.pack()
 
+button_add_emoji = tkinter.Button(melwin,  text="🥳", width=48,command=lambda:add_emoji("🥳"))
+button_add_emoji.pack()
+
 button_add_target = tkinter.Button(melwin, text="Add target", width=48, command=add_target)
 button_add_target.pack()
 
